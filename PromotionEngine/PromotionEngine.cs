@@ -12,6 +12,7 @@ namespace PromotionEngine
         {
             List<Product> products = new List<Product>();
 
+            Console.WriteLine(Constants.ACTIVEPROMOTIONS + '\n');
             Console.WriteLine(Constants.TOTALORDER);
             int a = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < a; i++)
